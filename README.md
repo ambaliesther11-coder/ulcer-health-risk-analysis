@@ -1,6 +1,6 @@
 # ulcer-health-risk-analysis
 
-## 📊 Overview
+## Overview
 
 The **Ulcer Health Risk Analysis Dashboard** is a healthcare data analytics project developed using Power BI to analyse patient data and identify patterns related to ulcer health.
 
@@ -12,7 +12,7 @@ The project demonstrates how healthcare data can be transformed into meaningful 
 
 ---
 
-## 🎯 Business Problem
+## Business Problem
 
 Healthcare datasets can contain a large amount of patient information, but raw data can be difficult to interpret and analyse efficiently.
 
@@ -31,7 +31,7 @@ This project addresses these challenges by transforming patient data into an int
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 The objectives of this project were to:
 
@@ -49,9 +49,9 @@ The objectives of this project were to:
 
 ---
 
-## 📁 Dataset Information
+## Dataset Information
 
-The dataset contains information relating to **170 patients**.
+The dataset contains information relating to **500 patients**.
 
 ### Key variables include:
 
@@ -73,33 +73,22 @@ The dataset was used to explore relationships and distributions across different
 
 ---
 
-## 🛠️ Tools and Technologies Used
-
-### Power BI
-Used to create the interactive dashboard, visualizations and KPI cards.
-
-### Power Query
-Used for data cleaning, transformation and preparation.
-
-### DAX
-Used to create calculated measures and analytical KPIs.
-
-### Data Visualization
-Used to communicate healthcare patterns through charts, cards, slicers and other visual elements.
-
-### GitHub
-Used to document and showcase the project as part of my data analytics portfolio.
+## Tools and Technologies Used
+- Power BI
+- Power Query
+- DAX (new columns and measures)
+- Data Visualization
 
 ---
 
-# 🧹 Data Cleaning & Preparation
+# Data Cleaning & Preparation
 
 Before developing the dashboard, the dataset was prepared for analysis.
 
 The data preparation process included:
-
+- Understanding the dataset.
 - Reviewing the dataset structure.
-- Checking variable types.
+- Cleaning of the dataset by checking variable types etc.
 - Preparing numerical variables for analysis.
 - Organizing categorical variables.
 - Preparing age groups.
@@ -115,7 +104,7 @@ The goal of the preparation stage was to ensure that the data could be analysed 
 
 ---
 
-# 📌 Key Performance Indicators (KPIs)
+# Key Performance Indicators (KPIs)
 
 The dashboard contains the following major KPIs:
 
@@ -125,7 +114,7 @@ The dashboard contains the following major KPIs:
 | Average BMI | **27.45** |
 | Average Haemoglobin Level | **11.59** |
 
-The dashboard also provides comparative indicators for:
+The dashboard also provides comparative indicators for among the 4 stages of the ulcer:
 
 - Average Age
 - Average Ulcer Size
@@ -135,35 +124,23 @@ These KPIs provide a quick summary of the patient population before exploring th
 
 ---
 
-# 📊 Dashboard Features
+# Dashboard Features
 
 ## 1. Total Patients
 
-The dashboard shows a total of:
-
-**170 patients**
-
-This provides an overview of the size of the patient population analysed.
+The dashboard shows a total of: **170 patients**
 
 ---
 
 ## 2. Average BMI
 
-The average BMI of the patients is:
-
-**27.45**
-
-The dashboard also provides a trend visualization for BMI.
+The average BMI of the patients is: **27.45**
 
 ---
 
 ## 3. Average Haemoglobin Level
 
-The average haemoglobin level is:
-
-**11.59 g/dL**
-
-A trend visualization is also provided to help explore changes across diagnosis years.
+The average haemoglobin level is: **11.59 g/dL**
 
 ---
 
@@ -173,15 +150,9 @@ The dashboard uses a donut chart to show the distribution of ulcer history.
 
 The categories include:
 
-- Previous
-- None
-- Recurrent
-
-The distribution shown in the dashboard is:
-
-- **Previous – 25.29%**
-- **None – 33.53%**
-- **Recurrent – 41.18%**
+- Previous 25.29%**
+- None 33.53%**
+- Recurrent 41.18%**
 
 ---
 
@@ -201,8 +172,6 @@ The dashboard examines three major ulcer depth categories:
 - Superficial
 - Deep
 
-The visualization shows that **erosion** has the highest distribution among the displayed ulcer depth categories.
-
 ---
 
 ## 7. Patient Distribution Across Medications
@@ -214,8 +183,6 @@ The dashboard includes:
 - NSAIDs
 - None
 - Aspirin
-
-This allows medication patterns within the dataset to be explored visually.
 
 ---
 
@@ -248,7 +215,7 @@ An ulcer-related anatomical image is included in the dashboard to provide visual
 
 ---
 
-# 🔎 Key Insights
+#  Key Insights
 
 Based on the dashboard analysis, several observations were identified.
 
@@ -299,7 +266,7 @@ The dashboard shows that patients are distributed across several age groups, all
 
 ---
 
-# 💡 Recommendations
+# Recommendations
 
 Based on the patterns observed in the dashboard:
 
@@ -319,7 +286,7 @@ Based on the patterns observed in the dashboard:
 
 ---
 
-# 🏁 Conclusion
+# Conclusion
 
 The **Ulcer Health Risk Analysis Dashboard** demonstrates how healthcare data can be transformed into meaningful and interactive visual insights.
 
@@ -343,12 +310,10 @@ This project also represents part of my journey of combining my **background in 
 
 ---
 
-# 👩‍💻 Author
+# Author
 
 ### Esther Ambali
 
 **Pharmacology Graduate | Aspiring Data Analyst | Healthcare Data Analytics**
 
 I am interested in using data analytics to solve problems and communicate insights, particularly at the intersection of **healthcare, pharmacology and data**.
-
-    └── project-notes.md
